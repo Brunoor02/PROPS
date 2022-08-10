@@ -1,0 +1,44 @@
+.secao{
+    display: flex;
+    flex-direction: column;
+    margin:10em;
+    
+    .textos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .textos p{
+        width: 270px;
+    }
+
+    .textos2{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .textos2 p{
+        width: 270px;
+    }
+
+}
+    .secao2{
+        display: flex;
+        flex-direction: column;   
+        align-items: center;
+        .textos3{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+        
+    .textos3 p{
+        width: 700px;
+    }
+}
